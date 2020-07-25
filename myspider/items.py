@@ -8,6 +8,7 @@ import scrapy
 
 class ItcastItem(scrapy.Item):
     # 抓取 1.讲师姓名 2.讲师职称 3.讲师个人信息
+    # 测试提交代码
     name = scrapy.Field()
     title = scrapy.Field()
     info = scrapy.Field()
